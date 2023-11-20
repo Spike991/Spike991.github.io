@@ -34,15 +34,16 @@
   text-align: center;
 }
 
-.item-2:hover .image {
-  opacity: 0.3;
-}
-
-.item-2:hover .middle {
+.wrapper:hover  {
+  .image {
+    opacity: 0.3;
+  }
+  .middle {
   opacity: 1;
   color: black;
-
 }
+}
+
 
 .title {
   color: white;

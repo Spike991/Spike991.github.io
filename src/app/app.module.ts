@@ -11,12 +11,18 @@ import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CurriculumvitaeComponent } from './curriculumvitae/curriculumvitae.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ContactComponent } from './contact/contact.component';
+import { HobbyComponent } from './hobby/hobby.component';
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HomeComponent,
     CurriculumvitaeComponent,
+    SkillsComponent,
+    ContactComponent,
+    HobbyComponent,
   ],
   imports: [
     BrowserModule,
