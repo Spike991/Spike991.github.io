@@ -7,7 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  words = [
+  words_EN = [
+    'Hello World!',
+    'My name is Alessio Cerullo!',
+    'Welcome to my World!',
+  ];
+  words_DE = [
+    'Hello World!',
+    'My name is Alessio Cerullo!',
+    'Welcome to my World!',
+  ];
+  words_IT = [
+    'Hello World!',
+    'My name is Alessio Cerullo!',
+    'Welcome to my World!',
+  ];
+  words_FR = [
     'Hello World!',
     'My name is Alessio Cerullo!',
     'Welcome to my World!',
@@ -15,7 +30,7 @@ export class HomeComponent implements OnInit {
   part = '';
   i = 0;
   offset = 0;
-  len = this.words.length;
+  len = this.words_EN.length;
   forwards = true;
   skipCount = 0;
   skipDelay = 20;
@@ -23,15 +38,23 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
     this.wordFlick();
     console.log('Testing');
   }
 
+  ngOnChanges(): void {
+    // parentComponent
+    var selectedElement = document.getElementById('language');
+    var language2 = selectedElement as HTMLSelectElement;
+    var language = language2.value;
+    console.log(language);
+  }
+
   wordFlick() {
     setInterval(() => {
-      console.log('Interval running ');
       if (this.forwards) {
-        if (this.offset >= this.words[this.i].length) {
+        if (this.offset >= this.words_EN[this.i].length) {
           this.skipCount++;
           if (this.skipCount === this.skipDelay) {
             this.forwards = false;
@@ -48,7 +71,7 @@ export class HomeComponent implements OnInit {
           }
         }
       }
-      this.part = this.words[this.i].substr(0, this.offset);
+      this.part = this.words_EN[this.i].substr(0, this.offset);
       if (this.skipCount === 0) {
         if (this.forwards) {
           this.offset++;

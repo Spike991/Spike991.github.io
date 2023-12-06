@@ -7,10 +7,15 @@
 
 }
 
-.item-2 {
+.item-2  {
   display: flex;
   justify-content: center;
   height: 500px
+}
+.item-3  {
+  display: flex;
+  justify-content: center;
+  height: 20px
 }
 
 .image {
@@ -34,14 +39,19 @@
   text-align: center;
 }
 
-.wrapper:hover  {
+.wrapper:hover {
   .image {
     opacity: 0.3;
   }
+
   .middle {
-  opacity: 1;
-  color: black;
+    opacity: 1;
+    color: black;
+  }
 }
+
+.wrapper-2{
+  background-color: lightblue;
 }
 
 
