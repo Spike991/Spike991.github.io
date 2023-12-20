@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-curriculumvitae',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CurriculumvitaeComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private readonly translateService: TranslateService,
+
+  ) { }
 
   ngOnInit(): void {
+
+    this.translateService.instant()
   }
 
 }

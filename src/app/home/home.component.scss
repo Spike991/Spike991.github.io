@@ -38,7 +38,10 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
+.wrapper {
+display: flex;
+  justify-content: center;
+}
 .wrapper:hover {
   .image {
     opacity: 0.3;

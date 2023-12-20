@@ -14,6 +14,13 @@ import { CurriculumvitaeComponent } from './curriculumvitae/curriculumvitae.comp
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { HobbyComponent } from './hobby/hobby.component';
+import {TranslateModule} from '@ngx-translate/core';
+import {} from '@ngx-translate/http-loader';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+export function httpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +37,9 @@ import { HobbyComponent } from './hobby/hobby.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    TopBarComponent
+    TopBarComponent,
+    TranslateModule,
+    HttpClientModule
   ],
   exports: [MatToolbarModule],
   providers: [],
