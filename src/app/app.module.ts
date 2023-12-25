@@ -18,9 +18,11 @@ import {TranslateModule} from '@ngx-translate/core';
 import {} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 
-export function httpLoaderFactory(http: HttpClient) {
+/* export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
+*/
+
 @NgModule({
   declarations: [
     AppComponent,

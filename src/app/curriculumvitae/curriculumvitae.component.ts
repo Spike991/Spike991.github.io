@@ -16,7 +16,7 @@ export class CurriculumvitaeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.translateService.instant()
+    // this.translateService.instant()
   }
 
 }
