@@ -205,6 +205,19 @@ h3 {
 }
 
 // Tools
+.git{
+  width: 50%;
+  animation: git 4s;
+}
+@keyframes git {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
 .devOps{
   width: 40%;
   animation: devOps 4s;
@@ -228,6 +241,19 @@ h3 {
   }
   100% {
     width: 40%;
+  }
+}
+
+.dorks{
+  width: 80%;
+  animation: dorks 4s;
+}
+@keyframes dorks {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
   }
 }
 

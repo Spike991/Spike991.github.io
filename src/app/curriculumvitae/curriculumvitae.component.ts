@@ -10,13 +10,11 @@ import { TranslateService } from '@ngx-translate/core';
 export class CurriculumvitaeComponent implements OnInit {
 
   constructor(
-    private readonly translateService: TranslateService,
 
   ) { }
 
   ngOnInit(): void {
 
-    // this.translateService.instant()
   }
 
 }

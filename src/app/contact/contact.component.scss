@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: 8fr 5fr;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#center{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+#image{
+  width: 90%;
+}
+
+.contact-images{
+  height: 50px;
+}
+
+a:hover{
+  transform: scale(1.2);
+}
+
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+}

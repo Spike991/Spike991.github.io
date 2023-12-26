@@ -8,7 +8,7 @@ import {HobbyComponent} from './hobby/hobby.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'curriculumvitae', component: CurriculumvitaeComponent },
+  {path: 'curriculum vitae', component: CurriculumvitaeComponent },
   {path: 'skills', component: SkillsComponent },
   {path: 'contact', component: ContactComponent },
   {path: 'hobby', component: HobbyComponent },
