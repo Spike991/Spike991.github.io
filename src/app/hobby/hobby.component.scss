@@ -3,46 +3,104 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
   max-height: 100px;
-  height: 800px;
+  padding: 10px;
   gap: 20px;
   grid-template-areas:
     "header header header"
     "cybersecurity music others"
 }
-.item-1{
+
+.title{
   display: flex;
   grid-area: header;
   justify-content: center;
-  height: 20%;
-}
-
-.item-2{
-  display: flex;
-  grid-area: cybersecurity;
-  background-color: black;
-  border: white solid;
-  justify-content: center;
   opacity: 0.9;
-  height: 80%;
+  background-color: darkred;
+  box-shadow: 10px 10px black;
+  border: darkcyan solid;
 }
 
-.item-3{
-  display: flex;
+.cyber{
+  display: grid;
+  background-color: black;
+  border: darkred solid;
   justify-content: center;
-  background-color: gray;
-  border: white solid;
+  padding: 0.5em;
+  opacity: 0.6;
+  height: 100%;
+  grid-area: cybersecurity;
+}
+
+#hackerman{
+  height: 400px;
+
+  // For responsivness --> mobile users
+  max-width: 100%;
+  height:  auto;
+}
+
+
+
+.center{
+ text-align: center;
+}
+
+.music{
+  display: grid;
+  background-color: lightseagreen;
+  border: darkcyan solid;
+  justify-content: center;
+  padding: 0.5em;
+  opacity: 0.5;
+  width: auto;
   grid-area: music;
 }
 
-.item-4{
+.flex {
   display: flex;
   justify-content: center;
+  gap: 0.5em;
+}
 
+#bass{
+  height: 250px;
+  border: #222324 solid;
 
+  // For responsivness --> mobile users
+  width: auto;
+}
+
+#sound-engineering{
+  height: 250px;
+  border: #222324 solid;
+}
+
+.other{
+  display: grid;
+  padding: 0.5em;
+  justify-content: center;
+  background-color: brown;
+  opacity: 0.5;
+  border: darkred solid;
   grid-area: others;
 }
 
-p {
+#jogging{
+  height: 300px;
+  border: #222324 solid;
+}
+
+.cyber-security{
   color: white;
+}
+
+.cyber:hover, .music:hover, .other:hover {
   opacity: 1.0;
+  transition: 0.5s;
+}
+
+// For mobile users
+.cyber:active, .music:active, .other:active {
+  opacity: 1.0;
+  transition: 0.5s;
 }
