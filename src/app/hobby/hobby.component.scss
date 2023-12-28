@@ -10,7 +10,7 @@
     "cybersecurity music others"
 }
 
-.title{
+.title2{
   display: flex;
   grid-area: header;
   justify-content: center;
@@ -27,7 +27,6 @@
   justify-content: center;
   padding: 0.5em;
   opacity: 0.6;
-  height: 100%;
   grid-area: cybersecurity;
 }
 
@@ -39,20 +38,17 @@
   height:  auto;
 }
 
-
-
 .center{
  text-align: center;
 }
 
 .music{
-  display: grid;
   background-color: lightseagreen;
   border: darkcyan solid;
   justify-content: center;
+  align-content: center;
   padding: 0.5em;
   opacity: 0.5;
-  width: auto;
   grid-area: music;
 }
 
@@ -60,6 +56,7 @@
   display: flex;
   justify-content: center;
   gap: 0.5em;
+  max-width: 100%;
 }
 
 #bass{
@@ -67,20 +64,25 @@
   border: #222324 solid;
 
   // For responsivness --> mobile users
+  max-width: 100%;
   width: auto;
 }
 
 #sound-engineering{
   height: 250px;
   border: #222324 solid;
+
+  // For responsivness --> mobile users
+  max-width: 100%;
+  width: auto;
 }
 
 .other{
   display: grid;
-  padding: 0.5em;
   justify-content: center;
   background-color: brown;
   opacity: 0.5;
+  padding: 0.5em;
   border: darkred solid;
   grid-area: others;
 }
@@ -88,6 +90,10 @@
 #jogging{
   height: 300px;
   border: #222324 solid;
+}
+
+a{
+  color: lightseagreen;
 }
 
 .cyber-security{

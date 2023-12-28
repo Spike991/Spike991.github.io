@@ -10,22 +10,24 @@
 .item-2  {
   display: flex;
   justify-content: center;
-  height: 500px
+  height: 800px
 }
 .item-3  {
   display: flex;
   justify-content: center;
-  height: 20px
+  height: 22px;
 }
 
 .image {
   opacity: 1;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: auto;
   max-height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  box-shadow: 2px 2px 40px 1px  #00f8d3;
+  border-radius: 10%;
 }
 
 .middle {
@@ -49,20 +51,21 @@ display: flex;
 
   .middle {
     opacity: 1;
-    color: black;
   }
 }
 
 .wrapper-2{
   background-color: lightblue;
+  border: 1px solid black;
+  box-shadow: 2px 2px 40px 1px  #00f8d3;
 }
 
 
 .title {
-  color: white;
+  color: #00f8d3;
   margin: auto;
   font: 1000 normal 3.5em 'tahoma';
-  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  text-shadow: 5px 2px #222324, 2px 4px #00d3b3, 3px 5px #222324;
 }
 
 span {

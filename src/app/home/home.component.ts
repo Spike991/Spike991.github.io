@@ -13,14 +13,14 @@ export class HomeComponent implements OnInit {
     'Welcome to my World!',
   ];
   words_DE = [
-    'Hello World!',
-    'My name is Alessio Cerullo!',
-    'Welcome to my World!',
+    'Hallo Welt!',
+    'Mein Name ist Alessio Cerullo!',
+    'Willkommen in meiner Welt!',
   ];
   words_IT = [
-    'Hello World!',
-    'My name is Alessio Cerullo!',
-    'Welcome to my World!',
+    'Ciao Mondo!',
+    'Mi chiamo Alessio Cerullo!',
+    'Benvenuto nel mio mondo!',
   ];
   words_FR = [
     'Hello World!',
@@ -38,7 +38,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
+    setTimeout(()=> {},200);
+    var selectElement = document.getElementById('language');
     this.wordFlick();
     console.log('Testing');
   }

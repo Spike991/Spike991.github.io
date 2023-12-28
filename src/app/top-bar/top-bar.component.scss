@@ -1,9 +1,27 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+.top-bar-component {
+  background-color: rgba(0, 80, 120, 0.9);
+  padding: 5px;
+  border: 1px solid #00f8d3;
+  box-shadow: 1px 1px 20px 0.5px  #00f8d3;
 
-button {
+}
+
+#home{
+  height: 50px;
+}
+
+#homeButton{
+  border-radius: 50%;
+  background-color: rgba(0, 248, 211, 0.5);}
+
+mat-toolbar{gap: 8px}
+
+.button {
   background-color: blue;
   color: lightblue;
-  border: 3px solid lightblue;
+  height: 40px;
+  width: auto;
 }
