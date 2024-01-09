@@ -15,6 +15,11 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.image{
+  display: grid;
+  align-content: center;
+}
+
 #center{
   display: flex;
   justify-content: center;

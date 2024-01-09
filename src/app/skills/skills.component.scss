@@ -18,15 +18,16 @@ body {
 
 h1{
   color: white;
+  text-align: center;
 }
+
+p {font-size: 1.5em;}
 
 .skill-intro {
   box-shadow: #3b3548;
   gap: 20px;
 }
-h1{
-  text-align: center;
-}
+
 #programming-languages{
   color: lightblue;
 }
@@ -416,7 +417,7 @@ h3 {
 }
 
 .german{
-  width: 100%;
+  width: 95%;
   animation: german 4s;
 }
 @keyframes german {
@@ -424,7 +425,7 @@ h3 {
     width: 0%;
   }
   100%{
-    width: 100%;
+    width: 95%;
   }
 }
 

@@ -1,0 +1,39 @@
+.image{
+  height: 30px;
+}
+
+.reduced-opacity{
+  opacity: 0.7;
+}
+
+img:hover{
+opacity: 1;
+}
+
+
+#image-en {
+  height: 28px;
+}
+
+#image-en:hover {
+  opacity: 0.9;
+}
+#image-de:hover {
+  opacity: 0.9;
+}
+
+#image-it:hover {
+  opacity: 0.9;
+}
+#image-fr:hover {
+  opacity: 0.9;
+  ;
+}
+
+
+
+.hamburger-menu {
+  display: flex;
+    gap: 1em;
+}
+

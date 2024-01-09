@@ -10,7 +10,7 @@
 }
 
 #home{
-  height: 50px;
+  height: 30px;
 }
 
 #homeButton{
@@ -24,4 +24,7 @@ mat-toolbar{gap: 8px}
   color: lightblue;
   height: 40px;
   width: auto;
+}
+.button:hover {
+  background-color: darkblue;
 }

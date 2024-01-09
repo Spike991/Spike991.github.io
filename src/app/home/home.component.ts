@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -7,55 +8,52 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  words_EN = [
+  words = [
     'Hello World!',
-    'My name is Alessio Cerullo!',
+    'My name is Alessio Cerullo',
     'Welcome to my World!',
-  ];
-  words_DE = [
     'Hallo Welt!',
-    'Mein Name ist Alessio Cerullo!',
+    'Mein Name ist Alessio Cerullo',
     'Willkommen in meiner Welt!',
-  ];
-  words_IT = [
     'Ciao Mondo!',
-    'Mi chiamo Alessio Cerullo!',
+    'Mi chiamo Alessio Cerullo',
     'Benvenuto nel mio mondo!',
+    'Bonjour le monde',
+    "Je m'appelle Alessio Cerullo",
+    'Bienvenue dans mon monde!'
+
   ];
-  words_FR = [
-    'Hello World!',
-    'My name is Alessio Cerullo!',
-    'Welcome to my World!',
-  ];
+  
   part = '';
   i = 0;
   offset = 0;
-  len = this.words_EN.length;
+  len = this.words.length;
   forwards = true;
   skipCount = 0;
   skipDelay = 20;
   speedDuration = 150;
-  constructor() { }
+
+
+  constructor(private translate: TranslateService) {
+    
+  
+  }
 
   ngOnInit(): void {
     setTimeout(()=> {},200);
-    var selectElement = document.getElementById('language');
-    this.wordFlick();
-    console.log('Testing');
+     this.wordFlick(this.words);
+
   }
 
   ngOnChanges(): void {
-    // parentComponent
-    var selectedElement = document.getElementById('language');
-    var language2 = selectedElement as HTMLSelectElement;
-    var language = language2.value;
-    console.log(language);
   }
 
-  wordFlick() {
+  wordFlick(words: string[]) {
+    setTimeout(()=> {},200);
+
     setInterval(() => {
       if (this.forwards) {
-        if (this.offset >= this.words_EN[this.i].length) {
+        if (this.offset >= words[this.i].length) {
           this.skipCount++;
           if (this.skipCount === this.skipDelay) {
             this.forwards = false;
@@ -72,7 +70,7 @@ export class HomeComponent implements OnInit {
           }
         }
       }
-      this.part = this.words_EN[this.i].substr(0, this.offset);
+      this.part = words[this.i].substr(0, this.offset);
       if (this.skipCount === 0) {
         if (this.forwards) {
           this.offset++;

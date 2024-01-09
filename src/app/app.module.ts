@@ -14,14 +14,21 @@ import { CurriculumvitaeComponent } from './curriculumvitae/curriculumvitae.comp
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { HobbyComponent } from './hobby/hobby.component';
-import {TranslateModule} from '@ngx-translate/core';
-import {} from '@ngx-translate/http-loader';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { LanguageHamburgerMenuComponent } from './language-hamburger-menu/language-hamburger-menu.component';
+import { CommonModule } from '@angular/common';
 
 /* export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 */
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -32,6 +39,9 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     SkillsComponent,
     ContactComponent,
     HobbyComponent,
+    LanguageHamburgerMenuComponent,
+    TopBarComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -39,9 +49,17 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    TopBarComponent,
     TranslateModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   exports: [MatToolbarModule],
   providers: [],

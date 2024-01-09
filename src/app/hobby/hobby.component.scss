@@ -52,29 +52,35 @@
   grid-area: music;
 }
 
-.flex {
+.flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5em;
+  align-content: center;
+  gap: 1px;
+}
+
+.flex-container img {
   max-width: 100%;
+  height: auto;
+  margin: 0 10px;
 }
 
 #bass{
-  height: 250px;
+  height: 200px;
+
   border: #222324 solid;
 
   // For responsivness --> mobile users
-  max-width: 100%;
-  width: auto;
+  max-width: 80%;
 }
 
 #sound-engineering{
-  height: 250px;
+  max-height: 200px;
   border: #222324 solid;
 
   // For responsivness --> mobile users
   max-width: 100%;
-  width: auto;
 }
 
 .other{
@@ -92,9 +98,16 @@
   border: #222324 solid;
 }
 
+#snowboard{
+  height: 300px;
+  border: #222324 solid;
+}
+
 a{
   color: lightseagreen;
 }
+
+p, li {font-size: 1.5em;}
 
 .cyber-security{
   color: white;
