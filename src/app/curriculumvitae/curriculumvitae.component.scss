@@ -1,0 +1,28 @@
+ul, li {
+  text-align: center;
+}
+
+h1 {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+
+}
+
+h1, h2, p, ul, a {
+  color: white;
+}
+
+.cv {
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+a:hover{
+  color: lightblue;
+}
+
+

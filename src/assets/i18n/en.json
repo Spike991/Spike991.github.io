@@ -1,0 +1,83 @@
+{
+    "home": {},
+    "cv": {
+        "2002": "Little Alessio is born :)",
+        "2015": "Secondary school in Seengen",
+        "2018": "Music high school in Baldegg, Lucern",
+        "2019": "Computer science high school in Aarau(AKSA) and Baden(BBB) ",
+        "2022": "Internship as a software developer and security champion at ",
+        "2024": "Signal Corps in the Swiss Army"
+    },
+    "skills": {
+        "title": "Welcome to my skills site!",
+        "foreword": "Here I wanna give you a little view of which technologies or skills I gained over the years! Please be aware. This is mostly my point of view and I rather rate it attentionaly than overrate myself. The most important part is that I'm motivated on every single technology/tools/languages and there's always room for improvements ;)!",
+        "technologies": {
+            "technologiesTitle": "Technology Stack (Programming Languages)",
+            "angular": "Angular (HTML, CSS, TS)",
+            "python": "Python",
+            "java": "Java (Spring Boot)",
+            "cSharp": "C#",
+            "go": "go",
+            "c": "C (especially with microcompouters [Arduino, Raspberry Pi])"
+        },
+        "tools": {
+            "toolsTitle": "Technology Tools/OS",
+            "git": "Git",
+            "devOps": "DevOps (Release management, QAT/Prod Env, YAML, Docker, Gitlab etc.)",
+            "office": "Office 365 / linbreoffice(Linux)",
+            "google": "Google dorks, ChatGPT",
+            "adobe": "Adobe programms (Photoshop, Illustrator, Premiere)",
+            "linux": "Linux (Ubuntu, Debian, Kali, Parrot)"
+        },
+        "security": {
+            "securityTitle": "Cyber Security",
+            "cryptology": "Cryptology (Blockchain, Hash, RSA, PRNGs, TSL/SSL, OAuth, Shors-Algorithm etc.)",
+            "nmap": "Nmap",
+            "metasploit": "Metasploit",
+            "autopsy": "Autopsy (IT-Forensik)",
+            "wireshark": "Wireshark",
+            "reverse": "Reverse Engineering",
+            "social": "Social Engineering (SET, Maltego, Phishing, Baiting, Pretexting etc.)",
+            "vulnerability": "Vulnerability Management (Nexus, Package management, ISO-27001)",
+            "web": "Web security (OWASP, Burp Suite, XSS, CSRF etc.)"
+        },
+        "languages": {
+            "title": "Languages",
+            "english": "English (B2)",
+            "german": "German (mother tongue)",
+            "italian": "Italian (B1)",
+            "french": "French (B1)"
+        }
+    },
+    "hobby": {
+        "title": "Hobbies",
+        "security": {
+            "securityTitle": "Cyber Security",
+            "content": "Cybersecurity is one of my greatest passions. I have always been fascinated by the world of hackers. In my opinion, it is the ultimate discipline in computer science, combining all areas of technology under one umbrella. In my free time, I like to engage with cybersecurity-specific technologies or tools. ",
+            "link": "(see Skills page) ",
+            "content2": "Otherwise, I participate in various CTFs (Capture The Flag), such as Hack the Box, Swiss Hacking Challenge, bug bounty programs, etc." 
+        },
+        "music": {
+            "musicTitle": "Music",
+            "content": "Music was the first passion I had the privilege to encounter. From a young age, I was allowed to sit behind the piano/keyboard and start playing the keys. Now, I delve into various areas of music and am part of my own band! Additionally, I dabble in sound engineering, producing/mixing, DJing, and also play the organ and bass. One could almost say, just like in cybersecurity, that I am an all-rounder :P."
+        },
+        "other": {
+            "otherTitle": "Other",
+            "content": "Besides music and cybersecurity, I have other hobbies that are important to me, though I don't pursue them continuously. These include, for example:",
+            "firstBulletPoint": "Playing chess (Favorite opening: London Opening)",
+            "secondBulletPoint": "Astronomy & Physics",
+            "thirdBulletPoint": "Snowboarding / Skiing",
+            "fourthBulletPoint": "Jogging or going to the gym",
+            "fifthBulletPoint": "Cooking (My specialty: Spaghetti Carbonara)",
+            "sixthBulletPoint": "Spending time with family and friends"
+        }
+    },
+    "contact": {
+        "title": "Please contact me. I am pleased to get in touch with you.",
+        "portfolio": {
+            "name": "Alessio Cerullo",
+            "profession": "Ethical Hacker & Application Developer",
+            "quote": "I want to be the person who protects your systems, website, and networks, so you can sleep peacefully at night."
+        }
+    }
+}
