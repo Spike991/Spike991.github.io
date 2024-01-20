@@ -1,0 +1,83 @@
+{
+    "home": {},
+    "cv": {
+        "2002": "Alessio ist geboren :)",
+        "2015": "Bezirksschule in Seengen",
+        "2018": "Fachmittelschule Profil Musik in Baldegg, Luzern",
+        "2019": "Informatikmittelschule in Aarau(AKSA) und Baden(BBB)",
+        "2022": "Praktikant als Software Entwickler und Security Champion bei der ",
+        "2024": "Funkaufklärer in der Schweizer Armee"
+    },
+    "skills": {
+        "title": "Willkommen auf meiner Fähigkeiten Seite!",
+        "foreword": "Hier möchte ich Ihnen zeigen, welche Technologien und Fähigkeiten ich mir über die Jahre angeeignet habe. Jedoch müssen Sie wissen, dass dies hauptsächlich meine Sicht der Dinge ist und ich mich eher unterbwerte als überbewerten möchte. Das Wichtigste ist jedoch, dass ich auf jede einzelne Disziplin (Technologien, Werkzeuge, Sprachen) motiviert bin und es Verbesserungspotenzial gibt;) !",
+        "technologies": {
+            "technologiesTitle": "Technologien (Programmiersprachen, Skriptsprachen etc.)",
+            "angular": "Angular (HTML, CSS, TS)",
+            "python": "Python",
+            "java": "Java (Spring Boot)",
+            "cSharp": "C#",
+            "go": "go",
+            "c": "C (especially with microcompouters [Arduino, Raspberry Pi])"
+        },
+        "tools": {
+            "toolsTitle": "Technologische Werkzeuge/ Betriebssysteme",
+            "git": "Git",
+            "devOps": "DevOps (Release management, QAT/Prod Env, YAML, Docker, Gitlab etc.)",
+            "office": "Office 365 / linbreoffice(Linux)",
+            "google": "Google dorks, ChatGPT",
+            "adobe": "Adobe Programme (Photoshop, Illustrator, Premiere)",
+            "linux": "Linux (Ubuntu, Debian, Kali, Parrot)"
+        },
+        "security": {
+            "securityTitle": "Cyber Sicherheit",
+            "cryptology": "Kryptologie (Blockchain, Hash, RSA, PRNGs, TSL/SSL, OAuth, Shors-Algorithm etc.)",
+            "nmap": "Nmap",
+            "metasploit": "Metasploit",
+            "autopsy": "Autopsy (IT-Forensik)",
+            "wireshark": "Wireshark",
+            "reverse": "Reverse Engineering",
+            "social": "Social Engineering (SET, Maltego, Phishing, Baiting, Pretexting etc.)",
+            "vulnerability": "Sicherheitslücken Management (Nexus, Package management, ISO-27001)",
+            "web": "Web Sicherheit (OWASP, Burp Suite, XSS, CSRF etc.)"
+        },
+        "languages": {
+            "title": "Sprachen",
+            "english": "Englisch (B2)",
+            "german": "Detusch (Muttersprache)",
+            "italian": "Italienisch (B1)",
+            "french": "Französisch (B1)"
+        }
+    },
+    "hobby": {
+        "title": "Hobbys",
+        "security": {
+            "securityTitle": "Cyber Sicherheit",
+            "content": "Cyber Sicherheit ist einer meiner grössten Passion. Mich hat die Welt der Hackers immer schon gefallen. Meiner Meinung nach ist es die Königsdisziplin der Informatik und vereinigt alle Themengebiete der Technik zusammen unter einem Hut. In der Freizeit, befasse ich mich gerne mit Cyber Security spezifischen Technologien oder Tools. ",
+            "link": "(siehe Skills Seite) ",
+            "content2": "Ansonsten mache ich in einigen CTFs mit (Hack the box, Swiss hacking challenge, bug bounty Programme etc.)" 
+        },
+        "music": {
+            "musicTitle": "Musik",
+            "content": "Musik war die erste Passion, die ich kennenlernen durfte. Bereits mit jungen Jahren durfte ich hinter dem Klavier/Keyboard sitzen und schon auf die Tasten schlagen. Mittlerweile wimmle ich mich in verschieden Gebiete in der Musik herum und bin in einer eigenen Band! Zudem befasse ich mich teilweise mit der Tontechnik, dem Producen/Mischen, dem Djing und spiele Orgel und Bass. Man könnte fast schon wie in der Cyber Secuirty behaupten, dass ich ein All-rounder bin :P."
+        },
+        "other": {
+            "otherTitle": "Diverses",
+            "content": "Neben der Musik und der Cyber Sicherheit, habe ich noch andere Hobbies, die mir wichtig sind, die ich jedoch nicht kontinuerlich nachverfolge. Darunter gehören zum Beispiel:",
+            "firstBulletPoint": "Schach spielen (Lieblingsopening: London opening)",
+            "secondBulletPoint": "Astronomie & Physik",
+            "thirdBulletPoint": "Snowboarden / Ski fahren",
+            "fourthBulletPoint": "Joggen oder ins Gym",
+            "fifthBulletPoint": "Kochen (Meine Spezialität: Spaghetti Carbonara)",
+            "sixthBulletPoint": "Zeit mit der Familie und Freunden verbringen"
+        }
+    },
+    "contact": {
+        "title": "Bitte kontaktieren Sie mich. Es freut mich mit Ihnen in Verbindung zu kommen.",
+        "portfolio": {
+            "name": "Alessio Cerullo",
+            "profession": "Ethischer Hacker & Applikations Entwickler",
+            "quote": "Ich will diejenige Person sein, die Ihre Systeme, Webseite und Netzwerke schützt, damit Sie in der Nacht in Ruhe schlafen können."
+        }
+    }
+}
