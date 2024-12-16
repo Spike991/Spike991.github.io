@@ -6,7 +6,8 @@
         "2018": "Liceo della musica in Baldegg, Lucerna",
         "2019": "Liceo dell'informatica in Aarau(AKSA) e Baden(BBB)",
         "2022": "Tirocinante come sviluppatore di software e campione di sicurezza presso la ",
-        "2024": "Ricognitore radio nell'esercito svizzero"
+        "2024": "Ricognitore radio nell'esercito svizzero (sergente)",
+        "2025": "Studi di Sicurezza Informatica presso la Scuola Universitaria Professionale di Lucerna"
     },
     "skills": {
         "title": "Benvenuti nella mia pagina delle competenze!",
@@ -38,8 +39,21 @@
             "wireshark": "Wireshark",
             "reverse": "Reverse Engineering",
             "social": "Social Engineering (SET, Maltego, Phishing, Baiting, Pretexting etc.)",
-            "vulnerability": "Sicherheitslücken Management (Nexus, Package management, ISO-27001)",
-            "web": "Web Sicherheit (OWASP, Burp Suite, XSS, CSRF etc.)"
+            "vulnerability": "Management delle vulnerabilità/ISMS (Nexus, Package management, ISO-27001)",
+            "web": "Sicurezza web (OWASP, Burp Suite, XSS, CSRF etc.)"
+        },
+        "music": {
+            "title": "Musica / Tecnologia degli eventi",
+            "soundEngineering": "Ingegneria del suono: Logiciels audio/DAW (Ableton, Cubase, Allen & Heath (GLD80)",
+            "lightEngineering": "Ingegneria della luce: Logiciel DMX (MagicQ)",
+            "production": "Produzione musicale: Ableton",
+            "rigging": "Montaggio/Costruzione del palco",
+            "microfon": "Tecnica microfonica, canto",
+            "vjing": "Vjing: Resolume, Madmapper",
+            "djing": "Rekordbox, Virtual DJ",
+            "keyboard": "Pianoforte, Tastiera & Organo",
+            "guitar": "Chitarra elettrica e chitarra classica",
+            "bass": "Basso elettrico, contrabbasso"
         },
         "languages": {
             "title": "Lingue",
@@ -67,7 +81,7 @@
             "firstBulletPoint": "Giocare a scacchi (Apertura preferita: Apertura di Londra)",
             "secondBulletPoint": "Astronomia e Fisica",
             "thirdBulletPoint": "Fare snowboard / sciare",
-            "fourthBulletPoint": "Fare jogging o andare in palestra",
+            "fourthBulletPoint": "Krav Maga",
             "fifthBulletPoint": "Cucinare (La mia specialità: Spaghetti alla Carbonara)",
             "sixthBulletPoint": "Trascorrere tempo con la famiglia e gli amici"
         }

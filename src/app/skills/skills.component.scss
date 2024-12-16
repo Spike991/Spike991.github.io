@@ -34,15 +34,22 @@ p {font-size: 1.5em;}
 #tools{
   color: lightgoldenrodyellow;
 }
+#cyber-security {
+  color: black;
+  text-shadow: 2px 2px 5px red;
+}
+
+#music{
+  color: purple;
+  text-shadow: 2px 2px 5px lightblue;
+}
+
 #languages{
   color: lightseagreen;
 
 }
 
-#cyber-security {
-  color: black;
-  text-shadow: 2px 2px 5px red;
-}
+
 h3 {
   margin: 5px;
 }
@@ -79,7 +86,19 @@ h3 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgb(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .bar-security{
+  background: #3b3548;
+  display: block;
+  height: 20px;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgb(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar-music{
   background: #3b3548;
   display: block;
   height: 20px;
@@ -121,69 +140,208 @@ h3 {
   background: linear-gradient(135deg, rgb(255, 80, 100, 1)0%, rgb(170, 0, 0)100%);
 }
 
+.bar-music span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(100, 10, 200, 170)0%, rgb(170, 0, 170)100%);
+}
+
 .bar-language span {
   height: 20px;
   float: left;
   background: linear-gradient(135deg, rgb(80, 255, 100, 1)0%, rgb(0, 170, 0)100%);
 }
+
 // programming languages
 .angular{
   width: 70%;
-  animation: angular 4s;
-}
-@keyframes angular {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 70%;
-  }
+  animation: secventyPercent 4s;
 }
 
 .python{
   width: 50%;
-  animation: python 4s;
-}
-@keyframes python {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 50%;
-  }
+  animation: fiftyPercent 4s;
 }
 
 .java{
   width: 50%;
-  animation: java 4s;
-}
-@keyframes java {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 50%;
-  }
+  animation: fiftyPercent 4s;
 }
 
 .c-sharp{
   width: 30%;
-  animation: angular 4s;
-}
-@keyframes java {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 30%;
-  }
+  animation: thirtyPercent 4s;
 }
 
 .go{
   width: 10%;
-  animation: angular 4s;
+  animation: tenPercent 4s;
 }
-@keyframes java {
+
+.c{
+  width: 80%;
+  animation: eightyPercent 4s;
+}
+
+// Tools
+.git{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+.devOps{
+  width: 40%;
+  animation: fourtyPercent 4s;
+}
+
+.office{
+  width: 90%;
+  animation: ninetyPercent 4s;
+}
+
+.dorks{
+  width: 80%;
+  animation: eightyPercent 4s;
+}
+
+.adobe{
+  width: 40%;
+  animation: fourtyPercent 4s;
+}
+
+.linux{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+// Cyber Security
+.cryptology{
+  width: 60%;
+  animation: sixtyPercent 4s;
+}
+
+.nmap{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.metasploit{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.autopsy{
+  width: 20%;
+  animation: twentyPercent 4s;
+}
+
+.wireshark{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.reverse-engineering{
+  width: 10%;
+  animation: tenPercent 4s;
+}
+
+.social-engineering{
+  width: 40%;
+  animation: fourtyPercent 4s;
+}
+
+.vulnerability-management{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+
+.web-security{
+  width: 70%;
+  animation: seventyPercent 4s;
+}
+
+// music
+.sound-engineering{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+.light-engineering{
+  width: 60%;
+  animation: sixtyPercent 4s;
+}
+
+.production{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.rigging{
+  width: 20%;
+  animation: twentyPercent 4s;
+}
+
+.microfon{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.vjing{
+  width: 10%;
+  animation: tenPercent 4s;
+}
+
+.djing{
+  width: 30%;
+  animation: thirtyPercent 4s;
+}
+
+.keyboard{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+
+.guitar{
+  width: 60%;
+  animation: sixtyPercent 4s;
+}
+
+
+.bass{
+  width: 70%;
+  animation: seventyPercent 4s;
+}
+
+
+// Languages
+.english{
+  width: 70%;
+  animation: seventyPercent 4s;
+}
+
+.german{
+  width: 95%;
+  animation: ninetyFivePercent 4s;
+}
+
+.italian{
+  width: 50%;
+  animation: fiftyPercent 4s;
+}
+
+
+.french{
+  width: 40%;
+  animation: fourtyPercent 4s;
+}
+
+
+//
+// To-Do: refactore the @keyframes to each percentage, instead of putting it everywhere in the classes
+
+@keyframes tenPercent {
   0%{
     width: 0%;
   }
@@ -191,144 +349,7 @@ h3 {
     width: 10%;
   }
 }
-
-.c{
-  width: 80%;
-  animation: angular 4s;
-}
-@keyframes java {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 80%;
-  }
-}
-
-// Tools
-.git{
-  width: 50%;
-  animation: git 4s;
-}
-@keyframes git {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 50%;
-  }
-}
-
-.devOps{
-  width: 40%;
-  animation: devOps 4s;
-}
-@keyframes devOps {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-.office{
-  width: 90%;
-  animation: office 4s;
-}
-@keyframes office {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-.dorks{
-  width: 80%;
-  animation: dorks 4s;
-}
-@keyframes dorks {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-.adobe{
-  width: 40%;
-  animation: adobe 4s;
-}
-@keyframes adobe {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-.linux{
-  width: 50%;
-  animation: linux 4s;
-}
-@keyframes linux {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 50%;
-  }
-}
-
-// Cyber Security
-.cryptology{
-  width: 60%;
-  animation: cryptology 4s;
-}
-@keyframes cryptology {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 60%;
-  }
-}
-
-.nmap{
-  width: 30%;
-  animation: nmap 4s;
-}
-@keyframes nmap {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 30%;
-  }
-}
-
-.metasploit{
-  width: 30%;
-  animation: metasploit 4s;
-}
-@keyframes metasploit {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 30%;
-  }
-}
-
-.autopsy{
-  width: 20%;
-  animation: autopsy 4s;
-}
-@keyframes autopsy {
+@keyframes twentyPercent {
   0%{
     width: 0%;
   }
@@ -336,12 +357,7 @@ h3 {
     width: 20%;
   }
 }
-
-.wireshark{
-  width: 30%;
-  animation: wireshark 4s;
-}
-@keyframes wireshark {
+@keyframes thirtyPercent {
   0%{
     width: 0%;
   }
@@ -349,25 +365,7 @@ h3 {
     width: 30%;
   }
 }
-
-.reverse-engineering{
-  width: 10%;
-  animation: reverse-engineering 4s;
-}
-@keyframes reverse-engineering {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 10%;
-  }
-}
-
-.social-engineering{
-  width: 40%;
-  animation: social-engineering 4s;
-}
-@keyframes social-engineering {
+@keyframes fourtyPercent {
   0%{
     width: 0%;
   }
@@ -375,25 +373,23 @@ h3 {
     width: 40%;
   }
 }
-
-.vulnerability-management{
-  width: 50%;
-  animation: vulnerability-management 4s;
-}
-@keyframes vulnerability-management {
-  0% {
+@keyframes fiftyPercent {
+  0%{
     width: 0%;
   }
-  100% {
+  100%{
     width: 50%;
   }
 }
-
-.web-security{
-  width: 70%;
-  animation: web-security 4s;
+@keyframes sixtyPercent {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
 }
-@keyframes web-security {
+@keyframes seventyPercent {
   0%{
     width: 0%;
   }
@@ -401,26 +397,24 @@ h3 {
     width: 70%;
   }
 }
-
-// Languages
-.english{
-  width: 70%;
-  animation: english 4s;
-}
-@keyframes english {
+@keyframes eightyPercent {
   0%{
     width: 0%;
   }
   100%{
-    width: 70%;
+    width: 80%;
+  }
+}
+@keyframes ninetyPercent {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
   }
 }
 
-.german{
-  width: 95%;
-  animation: german 4s;
-}
-@keyframes german {
+@keyframes ninetyFivePercent {
   0%{
     width: 0%;
   }
@@ -428,30 +422,3 @@ h3 {
     width: 95%;
   }
 }
-
-.italian{
-  width: 50%;
-  animation: italian 4s;
-}
-@keyframes italian {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 50%;
-  }
-}
-
-.french{
-  width: 40%;
-  animation: french 4s;
-}
-@keyframes french {
-  0%{
-    width: 0%;
-  }
-  100%{
-    width: 40%;
-  }
-}
-
