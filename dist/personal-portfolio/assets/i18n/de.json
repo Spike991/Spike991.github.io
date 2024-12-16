@@ -6,7 +6,8 @@
         "2018": "Fachmittelschule Profil Musik in Baldegg, Luzern",
         "2019": "Informatikmittelschule in Aarau(AKSA) und Baden(BBB)",
         "2022": "Praktikant als Software Entwickler und Security Champion bei der ",
-        "2024": "Funkaufklärer in der Schweizer Armee"
+        "2024": "Funkaufklärer in der Schweizer Armee (Wachtmeister)",
+        "2025": "Cyber Security Studium an der Hochschule Luzern"
     },
     "skills": {
         "title": "Willkommen auf meiner Fähigkeiten Seite!",
@@ -38,8 +39,21 @@
             "wireshark": "Wireshark",
             "reverse": "Reverse Engineering",
             "social": "Social Engineering (SET, Maltego, Phishing, Baiting, Pretexting etc.)",
-            "vulnerability": "Sicherheitslücken Management (Nexus, Package management, ISO-27001)",
+            "vulnerability": "Sicherheitslücken Management / ISMS (Nexus, Package management, ISO-27001)",
             "web": "Web Sicherheit (OWASP, Burp Suite, XSS, CSRF etc.)"
+        },
+        "music": {
+            "title": "Musik / Veranstaltungstechnik",
+            "soundEngineering": "Tontechnik: Audio/DAW Software (Ableton, Cubase, Allen & Heath (GLD80)",
+            "lightEngineering": "Lichttechnik: DMX Software (MagicQ)",
+            "production": "Musik Produktion: Ableton",
+            "rigging": "Riggin/Bühnenaufbau",
+            "microfon": "Mikrofontechnik, Gesang",
+            "vjing": "Vjing: Resolume, Madmapper",
+            "djing": "Rekordbox, Virtual DJ",
+            "keyboard": "Klavier, Keyboard & Orgel",
+            "guitar": "E-Gitarre und klassiche Gitarre",
+            "bass": "E-Bass, Kontrabass"
         },
         "languages": {
             "title": "Sprachen",
@@ -67,7 +81,7 @@
             "firstBulletPoint": "Schach spielen (Lieblingsopening: London opening)",
             "secondBulletPoint": "Astronomie & Physik",
             "thirdBulletPoint": "Snowboarden / Ski fahren",
-            "fourthBulletPoint": "Joggen oder ins Gym",
+            "fourthBulletPoint": "Krav Maga",
             "fifthBulletPoint": "Kochen (Meine Spezialität: Spaghetti Carbonara)",
             "sixthBulletPoint": "Zeit mit der Familie und Freunden verbringen"
         }

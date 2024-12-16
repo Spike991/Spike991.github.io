@@ -6,7 +6,8 @@
         "2018": "Music high school in Baldegg, Lucern",
         "2019": "Computer science high school in Aarau(AKSA) and Baden(BBB) ",
         "2022": "Internship as a software developer and security champion at ",
-        "2024": "Signal Corps in the Swiss Army"
+        "2024": "Signal Corps in the Swiss Army (sergeant)",
+        "2025": "Cyber Security Studies at the Lucerne University of Applied Sciences"
     },
     "skills": {
         "title": "Welcome to my skills site!",
@@ -41,6 +42,19 @@
             "vulnerability": "Vulnerability Management (Nexus, Package management, ISO-27001)",
             "web": "Web security (OWASP, Burp Suite, XSS, CSRF etc.)"
         },
+        "music": {
+            "title": "Music / Event Technology",
+            "soundEngineering": "Sound engineering: Audio/DAW Software (Ableton, Cubase, Allen & Heath (GLD80)",
+            "lightEngineering": "Light engineering: DMX Software (MagicQ)",
+            "production": "Music production: Ableton",
+            "rigging": "Riggin/Stage construction",
+            "microfon": "Microphone technique, vocals",
+            "vjing": "Vjing: Resolume, Madmapper",
+            "djing": "Rekordbox, Virtual DJ",
+            "keyboard": "Piano, keyboard & organ",
+            "guitar": "Electric Guitar und classical guitar",
+            "bass": "Electric bass, double bass"
+        },
         "languages": {
             "title": "Languages",
             "english": "English (B2)",
@@ -67,7 +81,7 @@
             "firstBulletPoint": "Playing chess (Favorite opening: London Opening)",
             "secondBulletPoint": "Astronomy & Physics",
             "thirdBulletPoint": "Snowboarding / Skiing",
-            "fourthBulletPoint": "Jogging or going to the gym",
+            "fourthBulletPoint": "Krav Maga",
             "fifthBulletPoint": "Cooking (My specialty: Spaghetti Carbonara)",
             "sixthBulletPoint": "Spending time with family and friends"
         }

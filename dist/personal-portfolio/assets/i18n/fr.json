@@ -6,7 +6,8 @@
         "2018": "Lycée de musique à Baldegg, Lucerne",
         "2019": "Lycée d'informatique à Aarau(AKSA) et Baden(BBB) ",
         "2022": "Stage en tant que développeur de logiciels et champion de la sécurité chez",
-        "2024": "Intercepteur radio dans l'armée suisse"
+        "2024": "Intercepteur radio dans l'armée suisse (sergent)",
+        "2025": "Études de Cybersécurité à la Haute École Spécialisée de Lucerne"
     },
     "skills": {
         "title": "Bienvenue sur ma page de compétences!",
@@ -41,6 +42,19 @@
             "vulnerability": "Gestion des failles de sécurité (Nexus, Package management, ISO-27001)",
             "web": "Sécurité Web (OWASP, Burp Suite, XSS, CSRF etc.)"
         },
+        "music": {
+            "title": "Musique / Technologie événementielle",
+            "soundEngineering": "Ingénierie du son: Logiciels audio/DAW (Ableton, Cubase, Allen & Heath (GLD80)",
+            "lightEngineering": "Ingénierie de la lumière: Logiciel DMX (MagicQ)",
+            "production": "Production musicale: Ableton",
+            "rigging": "Montage/Construction de scène",
+            "microfon": "Technique de microphone, chant",
+            "vjing": "Vjing: Resolume, Madmapper",
+            "djing": "Rekordbox, Virtual DJ",
+            "keyboard": "Piano, keyboard & Orgue",
+            "guitar": "Guitare électrique et guitare classique",
+            "bass": "Basse électrique, contrebasse"
+        },
         "languages": {
             "title": "Langues",
             "english": "Anglais (B2)",
@@ -67,7 +81,7 @@
             "firstBulletPoint": "Jouer aux échecs (Ouverture préférée : l'ouverture de Londres)",
             "secondBulletPoint": "Astronomie et Physique",
             "thirdBulletPoint": "Faire du snowboard / skier",
-            "fourthBulletPoint": "Faire du jogging ou aller à la salle de sport",
+            "fourthBulletPoint": "Krav Maga",
             "fifthBulletPoint": "Cuisiner (Ma spécialité : Spaghetti Carbonara)",
             "sixthBulletPoint": "Passer du temps avec la famille et les amis"
         }
